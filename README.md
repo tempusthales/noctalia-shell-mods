@@ -2,6 +2,7 @@
 
 A lightweight audio spectrum visualizer for the **Noctalia** shell bar, powered by **CAVA** and **Quickshell**.  
 Renders smooth, configurable bars with minimal overhead.
+! [Cava Visualizer](https://i.imgur.com/DfxRyMi.png)
 
 ---
 

@@ -51,17 +51,19 @@ Renders smooth, configurable bars with minimal overhead.
 Place the files in your Noctalia repo (or in your QML overlay) as follows:
 
 ```plaintext
-Services/
-└── BarWidgetRegistry.qml                # modified: registers the widget
-
-Modules/
-├── Bar/
-│   └── Widgets/
-│       └── CavaVisualizer.qml           # new: the widget
-└── SettingsPanel/
-    └── Bar/
-        └── WidgetSettings/
-            └── CavaVisualizerSettings.qml # new: settings UI
+/etc
+├── xdg/
+|    └── quickshell/
+|              └── Services/
+|                      └── BarWidgetRegistry.qml                              # modified: registers the widget
+|              └── Modules/
+|                      └── Bar/
+│                           └── Widgets/
+│                                  └── CavaVisualizer.qml                     # new: the widget
+|              └── SettingsPanel/
+|                           └── Bar/
+|                                 └── WidgetSettings/
+|                                             └── CavaVisualizerSettings.qml  # new: settings UI
 ```
 If your project roots QML under `src/qml/`, prepend that prefix (e.g., `src/qml/Modules/...`).
 

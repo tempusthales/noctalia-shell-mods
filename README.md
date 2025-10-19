@@ -49,17 +49,17 @@ Renders smooth, configurable bars with minimal overhead.
 ## File Layout
 
 Place the files in your Noctalia repo (or in your QML overlay) as follows:
-Services/
-└─ BarWidgetRegistry.qml                # modified: registers the widget
 
+Services/
+└── BarWidgetRegistry.qml                # modified: registers the widget
 Modules/
-├─ Bar/
-│  └─ Widgets/
-│     └─ CavaVisualizer.qml            # new: the widget
-└─ SettingsPanel/
-   └─ Bar/
-      └─ WidgetSettings/
-         └─ CavaVisualizerSettings.qml # new: settings UI
+├── Bar/
+│   └── Widgets/
+│       └── CavaVisualizer.qml           # new: the widget
+└── SettingsPanel/
+└── Bar/
+└── WidgetSettings/
+└── CavaVisualizerSettings.qml # new: settings UI
 
 If your project roots QML under `src/qml/`, prepend that prefix (e.g., `src/qml/Modules/...`).
 

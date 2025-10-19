@@ -55,16 +55,16 @@ Place the files in your Noctalia repo (or in your QML overlay) as follows:
 ├── xdg/
 │    └── quickshell/
 │        ├── Services/
-│        |     └── BarWidgetRegistry.qml                              # modified: registers the widget
-│        ├── Modules/
+│        |     └── BarWidgetRegistry.qml                              # the contents of this file, gets added to
+│        ├── Modules/                                                 # BarWidgetRegistry.qml
 │              ├── Bar/
 │              |     └── Widgets/
 │              |          └── CavaVisualizer.qml                      # new: the widget
 │              ├── Settings/
 │                    └── Bar/
 │                         └── WidgetSettings/
-│                                  └── CavaVisualizerSettings.qml     # new: the contents of this file 
-                                                                      # gets merged into SettingsPanel.qml 
+│                                  └── CavaVisualizerSettings.qml     # the contents of this file 
+                                                                      # gets added into SettingsPanel.qml 
 ```
 If your project roots QML under `src/qml/`, prepend that prefix (e.g., `src/qml/Modules/...`).
 

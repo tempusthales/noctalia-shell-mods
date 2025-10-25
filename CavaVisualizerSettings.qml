@@ -1,4 +1,4 @@
-// Modules/SettingsPanel/Bar/WidgetSettings/CavaVisualizerSettings.qml
+// Modules/Settings/Bar/WidgetSettings/CavaVisualizerSettings.qml
 import QtQuick
 import QtQuick.Controls
 

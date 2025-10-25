@@ -25,4 +25,6 @@ property var widgetMetadata: ({
     })
 
 // Component definitions - these are loaded once at startup
-property Component cavaVisualizerComponent: Component { CavaVisualizer {} }
+property Component cavaVisualizerComponent: Component { 
+  CavaVisualizer {} 
+}
